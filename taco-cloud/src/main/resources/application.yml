@@ -1,3 +1,9 @@
 taco:
   orders:
-    pageSize: 10
+    page-size:
+
+
+spring:
+  jms:
+    template:
+      default-destination: tacocloud.order.queue
